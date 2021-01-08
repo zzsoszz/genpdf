@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+*{
+  box-sizing: border-box;
+}
+/*table{*/
+  /*width: 100%;*/
+  /*border-collapse: collapse;*/
+  /*text-align: left;*/
+  /*border-radius: 4px 4px 0 0;*/
+  /*overflow: scroll;*/
+  /*table-layout: fixed;*/
+/*}*/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+}
+th {
+  background: #333;
+  color: white;
+  font-weight: bold;
+}
+
+input{
+  line-height:1.6em;
+  padding:4px;
+}
+
+th,td > input{
+  width:100%;
+}
+
+
+
+
+td, th {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
